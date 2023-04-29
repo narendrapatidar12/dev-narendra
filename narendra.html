@@ -89,7 +89,7 @@
             // console.log(emailAnagram)
 
 
-            var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+            var validRegex =  /\S+@\S+\.\S+/
 
             if (firstEmail.match(validRegex) && secondEmail.match(validRegex)) {   
                 alert("Valid email address!");
